@@ -6,7 +6,7 @@
   <link rel="icon" type="image/png" href="./assets/img/favicon.png">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <title>
-    Amazon Review Analytics
+    Review Butler
   </title>
   <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
   <!--     Fonts and icons     -->
@@ -16,8 +16,6 @@
   <link href="./assets/css/bootstrap.min.css" rel="stylesheet" />
   <link href="./assets/css/now-ui-kit.css?v=1.2.2" rel="stylesheet" />
   <!-- CSS Just for demo purpose, don't include it in your project -->
-  <link href="./assets/demo/demo.css" rel="stylesheet" />
-  <script src="https://code.highcharts.com/highcharts.src.js"></script>
   <script src="https://js.stripe.com/v3/"></script>
   <!-- Facebook Pixel Code -->
 <script>
@@ -49,22 +47,6 @@
 /></noscript>
 <!-- End Facebook Pixel Code -->
   <!-- Google Tag Manager -->
-  <script>
-    (function(w, d, s, l, i) {
-      w[l] = w[l] || [];
-      w[l].push({
-        'gtm.start': new Date().getTime(),
-        event: 'gtm.js'
-      });
-      var f = d.getElementsByTagName(s)[0],
-        j = d.createElement(s),
-        dl = l != 'dataLayer' ? '&l=' + l : '';
-      j.async = true;
-      j.src =
-        'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-      f.parentNode.insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer', 'GTM-NKDMSK6');
-  </script>
   <!-- End Google Tag Manager -->
 </head>
 <body>
@@ -75,8 +57,13 @@
 			<div class="content-top">
 			  <div class="row">
 				<div class="col-sm-8 ml-auto mr-auto text-center">
-				  <h2 class="title">Know what Amazon buyers value most about your product in 1 easy click!</h2>
-				  <h4 class="description" style='margin-top:20pt'></h4>
+				  <h2 class="title">Don't waste another minute reading through reviews, let ReviewButler read them for you!</h2>
+				  <h4 class="description" style='margin-top:20pt'>
+				  
+				  </h4>
+				</div>
+				<div class='col-12'>
+					ReviewButler's powerful AI will read through tens of thousands of reviews and give you results like the table below.
 				</div>
 				<div class='col-12'>
 				<table class='table table-condensed table-bordered table-striped table-light text-dark'>
@@ -85,25 +72,25 @@
 					</thead>
 					<tbody>
 						<tr>
-							<td>"Durable, long lasting"</td><td>288</td>
+							<td>"Durable, long lasting"</td><td>2,881</td>
 						</tr>
 						<tr>
-							<td>"Good fit"</td><td>98</td>
+							<td>"Good fit"</td><td>980</td>
 						</tr>
 						<tr>
-							<td>"Easy to use"</td><td>77</td>
+							<td>"Easy to use"</td><td>776</td>
 						</tr>
 						<tr>
-							<td>"Like the style"</td><td>57</td>
+							<td>"Like the style"</td><td>573</td>
 						</tr>
 						<tr>
-							<td>"Many options"</td><td>9</td>
+							<td>"Many options"</td><td>44</td>
 						</tr>
 					</tbody>
 				</table>
 				</div>
 				<div class='col-12'>
-					<h4>In this example, the buyer cares most about the durability of the product.</h4>
+					<h4>In this example, you can see that most of the reviews are centered around the durability of the product.</h4>
 				</div>
 			  </div>
 			</div>
@@ -120,14 +107,14 @@
 			</div>
 			<div class='row'>
 				<div class='col-sm-24 ml-auto mr-auto text-center'>
-					<span class='text-primary'>Results for <br /><b>'Men's Mountain Waterproof Ski Jacket'</b></span>
+					<h4><span class='text-primary'>Results for <br /><b>'Men's Mountain Waterproof Ski Jacket'</b></span></h4>
 				</div>
 			</div>
 			<div class='row'>
 				<div class='col-sm-12 ml-auto mr-auto'>
 				<table class='table table-condensed table-bordered table-striped table-light text-dark'>
 					<thead>
-						<th>Phrase</th><th>Negative Reviews</th>
+						<th><b>Phrase</b></th><th><b>Negative Reviews</b></th>
 					</thead>
 					<tbody>
 						<tr class='table-danger'>
@@ -149,52 +136,6 @@
 				</table>
 				</div>
 			</div>
-			<!---<div class='row'>
-				<div class='col-6'>&nbsp;</div>
-			</div>
-			<div class='row'>
-				<div class='col-12 text-center'><b>Negative Reviews</b></div>
-			</div>
-			<div class='row' style='background-color:#ffc'>
-				<div class='col-7 text-right'>
-					"Not waterproof/leaked"
-				</div>
-				<div class='col-5 text-left text-danger'
-					<b>288</b>
-				</div>	
-			</div>
-			<div class='row'>
-				<div class='col-7 text-right'>
-					"Zipper broke"
-				</div>
-				<div class='col-5 text-left text-danger'
-					<b>31</b>
-				</div>	
-			</div>
-			<div class='row'>
-				<div class='col-7 text-right'>
-					"Seams ripped/stitching"
-				</div>
-				<div class='col-5 text-left text-danger'
-					<b>12</b>
-				</div>	
-			</div>
-			<div class='row'>
-				<div class='col-7 text-right'>
-					"Got wrong Color"
-				</div>
-				<div class='col-5 text-left text-danger'
-					<b>11</b>
-				</div>	
-			</div>
-			<div class='row'>
-				<div class='col-7 text-right'>
-					"NOT warm"
-				</div>
-				<div class='col-5 text-left text-danger'
-					<b>2</b>
-				</div>	
-			</div>-->
 		</div>
 	  </div>
   </div>
@@ -203,7 +144,7 @@
 		<div class='container'>
 			<div class='row'>
 				<div class="col-sm-12 ml-auto mr-auto">
-				FREE 7 Day Trial, Cancel anytime, 30 day money back guarantee!
+				Sign up now & get 7 Days FREE
 					<div onClick='checkout()' class='btn btn-lg btn-primary btn-block' style='font-size:1.5em'>Subscribe Now</div>
 				</div>
 			</div>
@@ -267,7 +208,7 @@
 		<div class='container'>
 			<div class='row'>
 				<div class="col-sm-12 ml-auto mr-auto">
-				FREE 7 Day Trial, Cancel anytime, 30 day money back guarantee!
+				Sign up now & get 7 Days FREE
 					<div onClick='checkout()' class='btn btn-lg btn-primary btn-block' style='font-size:1.5em'>Subscribe Now</div>
 				</div>
 			</div>
